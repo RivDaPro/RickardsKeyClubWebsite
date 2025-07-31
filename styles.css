@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+header {
+  background-color: #00274d; /* Dark Blue */
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  background: linear-gradient(to right, #00274d, #ffcc00); /* Blue to Gold */
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.logo {
+  width: 150px;
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+main {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  color: #00274d;
+}
+
