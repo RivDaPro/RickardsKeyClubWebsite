@@ -28,11 +28,11 @@ nav a:hover {
   background: linear-gradient(to right, #00274d, #ffcc00); /* Blue to Gold */
   color: white;
   text-align: center;
-  padding: 4rem 2rem; /* Increased padding */
+  padding: 6rem 2rem; /* Increased padding */
 }
 
 .logo {
-  width: 150px;
+  width: 300px; /* 2x the previous 150px */
   animation: float 2s ease-in-out infinite;
   display: block;
   margin: 1rem auto 0;
@@ -46,16 +46,21 @@ nav a:hover {
 
 main {
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 4rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 h1 {
   color: #00274d;
-  text-transform: uppercase; /* Makes title all caps */
+  text-transform: uppercase;
 }
 
-
-h1 {
-  color: #00274d;
+p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+  margin-top: 1rem;
 }
+
 
