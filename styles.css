@@ -1,97 +1,95 @@
-/* Reset and base */
+/* Reset and base styles */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background: #f9f9f9;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
 }
 
 .container {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 /* Header */
 header {
-    background-color: #003366; /* Dark blue */
-    padding: 20px 0;
-    text-align: center;
-    color: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  background-color: #003366;
+  padding: 30px 0;
+  text-align: center;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
-    font-size: 2.8rem;
-    font-weight: bold;
-    letter-spacing: 2px;
+  font-size: 2.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 /* Banner */
 .banner {
-    background: linear-gradient(135deg, #005a9c, #007acc);
-    color: white;
-    padding: 60px 0;
-    text-align: center;
-    margin-bottom: 30px;
-    box-shadow: inset 0 0 30px rgba(0,0,0,0.2);
+  background: linear-gradient(135deg, #004080, #3399ff);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.2);
+  border-bottom: 4px solid #002f5f;
 }
 
 .banner-content {
-    max-width: 700px;
-    margin: 0 auto;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .logo {
-    max-width: 200px;
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 220px;
+  height: auto;
+  margin: 0 auto 30px auto;
+  display: block;
 }
 
 .banner h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    letter-spacing: 1.2px;
-    margin-top: 0;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 0;
 }
 
-/* Main content */
-main p {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
-    text-align: center;
+/* Main section */
+main.container {
+  padding: 40px 0;
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 /* Footer */
 footer {
-    background-color: #003366;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    margin-top: 40px;
-    font-size: 0.9rem;
+  background-color: #003366;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 60px;
 }
 
-/* Responsive */
+/* Responsive tweaks */
 @media (max-width: 600px) {
-    header h1 {
-        font-size: 2rem;
-    }
-    .banner h2 {
-        font-size: 1.5rem;
-    }
-    .logo {
-        max-width: 150px;
-    }
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    max-width: 150px;
+  }
 }
 
